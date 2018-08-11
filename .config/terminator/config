@@ -1,0 +1,23 @@
+[global_config]
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = Monokai Vivid
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+    scrollback_lines = 1000
+    scrollbar_position = hidden
+    use_theme_colors = True
+  [[Monokai Vivid]]
+    cursor_color = "#fb0007"
+    font = Source Code Pro 14
+    palette = "#121212:#fa2934:#98e123:#fff30a:#0443ff:#f800f8:#01b6ed:#ffffff:#838383:#f6669d:#b1e05f:#fff26d:#0443ff:#f200f6:#51ceff:#ffffff"
+    use_system_font = False

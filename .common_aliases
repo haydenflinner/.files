@@ -1,0 +1,8 @@
+function c () {
+    cd "$@" && ls
+}
+alias vim="nvim"
+export TERM=xterm-256color
+export CLICOLOR=1
+HISTSIZE=10000
+SAVEHIST=10000
